@@ -83,7 +83,7 @@ function blueBalloon() {
   //write code for spwaning blue balloons
   var blue=createSprite(0,Math.round(random(20,370)),10,10);
   blue.addImage(blue_ballonImage);
-  blue.velcity=5;
+  blue.velcityX=5;
   blue.lifetime=150;
   blue.scale=0.1;
 }
@@ -91,8 +91,18 @@ function blueBalloon() {
 
 function greenBalloon() {
   //write code for spwaning green balloons
+  var green=createSprite(0,Math.round(random(20,370)),10,10);
+  green.addImage(green_ballonImage);
+  green.velcityX=5;
+ green.lifetime=150;
+  green.scale=0.1;
 }
 
 function pinkBalloon() {
   //write code for spwaning pink balloons
+  var pink=createSprite(0,Math.round(random(20,370)),10,10);
+  pink.addImage(pink_ballonImage);
+  pink.velcityX=5;
+ pink.lifetime=150;
+  pink.scale=0.1;
 }
